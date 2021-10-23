@@ -242,6 +242,9 @@ services:
 
 **注意，用学习强国官方软件及网页时关闭翻墙软件**。但是telegram推送需要翻墙。
 
+**bot使用代理说明：进入容器内找到user/settings.conf，根据本库的default_template.conf文件里addition附加功能-telegram的相关内容复制进去、填写好保存即可。）**
+支持http和socks5两种代理方式
+
 **要做好分流**
 
 # 其他说明
